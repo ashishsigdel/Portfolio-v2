@@ -64,7 +64,7 @@ const Skills = () => {
         ))}
       </div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Other_skill.map((image, index) => (
+        {Skill_data.map((image, index) => (
           <SkillDataProvider
             key={index}
             src={image.Image}
